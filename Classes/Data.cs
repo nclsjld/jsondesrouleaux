@@ -7,9 +7,16 @@ using System.Threading.Tasks;
 namespace Classes
 {
     #region Data
-    class Data
+    public class Data
     {
+        private String data;
 
+        public String Data
+        {
+            get { return data; }
+            set { data = value; }
+        }
+        
     }
     #endregion
 }
