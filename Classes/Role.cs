@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Class1
+    class Role
     {
-
     }
 }

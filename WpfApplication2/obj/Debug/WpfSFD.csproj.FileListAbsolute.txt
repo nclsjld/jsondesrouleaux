@@ -1,1 +1,2 @@
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\WpfApplication2\bin\Debug\WpfApplication2.exe.config
