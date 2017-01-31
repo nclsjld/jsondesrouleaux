@@ -1,0 +1,1 @@
+c:\users\nicolas\documents\visual studio 2013\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
