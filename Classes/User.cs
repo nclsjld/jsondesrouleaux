@@ -57,5 +57,7 @@ namespace Classes
             get { return role; }
             set { role = value; }
         }
+
+
     }
 }
