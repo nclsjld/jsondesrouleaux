@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Classes;
+using Database;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +24,8 @@ namespace WpfSFD.Views
         public Login()
         {
             InitializeComponent();
+            MySQLManager<Role> managerRole = new MySQLManager<Role>(DataConnectionResource.LOCALMYSQL);
+            Console.WriteLine("coucou");       
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

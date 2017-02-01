@@ -9,12 +9,12 @@ namespace Classes
     #region Data
     public class Data
     {
-        private String data;
+        private String dataJson;
 
-        public String Data
+        public String DataJson
         {
-            get { return data; }
-            set { data = value; }
+            get { return dataJson; }
+            set { dataJson = value; }
         }
         
     }

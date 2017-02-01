@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    class Role
+    public class Role
     {
         private int id;
+        private String name;
+        private ICollection<User> users;
 
         public int Id
         {
@@ -16,14 +18,21 @@ namespace Classes
             set { id = value; }
         }
 
-        private String name;
-
         public String Name
         {
             get { return name; }
             set { name = value; }
         }
-        
-        
+
+        public ICollection<User> Users
+        {
+            get { return users; }
+            set { users = value; }
+        }
+
+        public Role()
+        {
+            this.users = new HashSet<User>();
+        }
     }
 }

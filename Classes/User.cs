@@ -14,7 +14,7 @@ namespace Classes
         private String login; // firstname + lastname
         private String password;
         private int idRole;
-        private List<Role> role;
+        private ICollection<Role> roles;
 
         public int Id
         {
@@ -52,12 +52,15 @@ namespace Classes
             set { idRole = value; }
         }
 
-        public List<Role> Role
+        public ICollection<Role> Roles
         {
-            get { return role; }
-            set { role = value; }
+            get { return roles; }
+            set { roles = value; }
         }
 
-
+        public User()
+        {
+            this.roles = new HashSet<Role>();
+        }
     }
 }

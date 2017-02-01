@@ -1,0 +1,5 @@
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Utils\bin\Debug\Utils.dll
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Utils\bin\Debug\Utils.pdb
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Utils\obj\Debug\Utils.dll
+C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Utils\obj\Debug\Utils.pdb
