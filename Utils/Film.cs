@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utils
 {
-    class Film
+    public class Film
     {
         private int id;
         private String title;

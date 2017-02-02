@@ -25,3 +25,35 @@ C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\WpfSFD\obj\Debug\WpfSFD.csproj.GenerateResource.Cache
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\WpfSFD\obj\Debug\WpfSFD.exe
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\WpfSFD\obj\Debug\WpfSFD.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\WpfSFD.exe.config
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.exe
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\WpfSFD.exe
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\WpfSFD.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Classes.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Database.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\EntityFramework.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Classes.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Database.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\EntityFramework.xml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\MainWindow.baml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\MainWindow.g.cs
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\App.g.cs
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD_MarkupCompile.cache
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.g.resources
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.Properties.Resources.resources
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD.csproj.GenerateResource.Cache
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\UserCreation.g.cs
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\WpfSFD_MarkupCompile.lref
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\UserCreation.baml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\DataInsertView.baml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\DataInsertView.g.cs
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\Login.g.cs
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\obj\Debug\Views\Pages\Login.baml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\WpfSFD\bin\Debug\Newtonsoft.Json.xml

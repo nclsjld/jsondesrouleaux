@@ -3,3 +3,8 @@ C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Classes\bin\Debug\Classes.pdb
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Classes\obj\Debug\Classes.dll
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Classes\obj\Debug\Classes.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Classes\bin\Debug\Classes.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Classes\bin\Debug\Classes.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Classes\obj\Debug\Classes.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Classes\obj\Debug\Classes.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Classes\obj\Debug\Classes.pdb

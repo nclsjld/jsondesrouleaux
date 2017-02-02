@@ -34,35 +34,36 @@ namespace Database
 
         public void InitLocalMySQL()
         {
-
+            
             if (this.Database.CreateIfNotExists())
             {
                 //Setup base datas to load
-                /*for (int j = 0; j < 20; j++)
-                {
-                    Role r1 = new Role();
-
-                    r1.Name = "Admin";
-                    MySQLManager<Role> managerRole = new MySQLManager<Role>(DataConnectionResource.LOCALMYSQL);
-                    managerRole.Insert(r1);
-
-                    //EntityGenerator<Class2> generatorClass2 = new EntityGenerator<Class2>();
-                    //for (int i = 0; i < 10; i++)
-                    //{
-                    //    c1.Addresses.Add(generatorClass2.GenerateItem());
-                    //}
-
-                    //MySQLManager<Class1> managerClass1 = new MySQLManager<Class1>(DataConnectionResource.LOCALMYSQL);
-                    //managerClass1.Insert(c1);
 
 
-                    //ClassD d1 = new ClassD();
-                    //EntityGenerator<ClassD> generatorClassD = new EntityGenerator<ClassD>();
-                    //d1 = generatorClassD.GenerateItem();
+                Role r1 = new Role();
 
-                    //MySQLManager<ClassD> managerClassD = new MySQLManager<ClassD>(DataConnectionResource.LOCALMYSQL);
-                    //managerClassD.Insert(d1);
-                }*/
+                r1.Name = "Admin";
+                MySQLManager<Role> managerRole = new MySQLManager<Role>(DataConnectionResource.LOCALMYSQL);
+                managerRole.Insert(r1);
+
+                Role r2 = new Role();
+
+                r2.Name = "User";
+                managerRole.Insert(r2);
+
+                User jason = new User();
+                jason.Firstname = "Jason";
+                jason.Lastname = "Desrouleaux";
+                jason.Login = (jason.Firstname + jason.Lastname).ToLower();
+                jason.Password = "spotify";
+                //jason.Roles.Add(r1);
+                jason.IdRole = 1;
+
+
+                MySQLManager<User> managerUser = new MySQLManager<User>(DataConnectionResource.LOCALMYSQL);
+                managerUser.Insert(jason);
+
+         
             }
         }
 

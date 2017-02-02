@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Utils
 {
-    class Music
+    public class Music
     {
         private String id;
         private String artist;

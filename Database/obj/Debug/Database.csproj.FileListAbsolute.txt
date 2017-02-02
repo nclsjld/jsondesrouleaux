@@ -12,3 +12,17 @@ C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Database\obj\Debug\Database.dll
 C:\Users\nicolas\Documents\Visual Studio 2013\Projects\WpfSFD\Json-des-rouleaux\Database\obj\Debug\Database.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\Database.dll.config
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\Database.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\Database.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\Classes.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\EntityFramework.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\MySql.Data.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\mysql.data.entity.EF6.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\Classes.pdb
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\EntityFramework.xml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\obj\Debug\Database.csprojResolveAssemblyReference.cache
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\obj\Debug\Database.dll
+C:\Users\Alexandre\Desktop\Cours\jsondesrouleaux\Database\obj\Debug\Database.pdb
