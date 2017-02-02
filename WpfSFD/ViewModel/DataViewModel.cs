@@ -27,7 +27,7 @@ namespace WpfSFD.ViewModel
 
         private void insertBtn_OnClick(object sender, RoutedEventArgs e)
         {
-            
+           
         }
 
         private static bool IsValidJson(string strInput)

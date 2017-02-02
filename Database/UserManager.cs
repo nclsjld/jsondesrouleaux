@@ -17,7 +17,6 @@ namespace Database
             public User GetByLogin(string login, string password)
             {
                 User user;
-            Console.WriteLine(login + password);
                 try
                 {
                     user = DbSetT

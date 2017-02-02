@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataConnectionResource.cs" />
+    <Compile Include="DataManager.cs" />
     <Compile Include="FullDb.cs" />
     <Compile Include="MySQLFullDB.cs" />
     <Compile Include="MySQLManager.cs" />
