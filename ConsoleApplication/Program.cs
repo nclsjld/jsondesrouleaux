@@ -17,9 +17,8 @@ namespace ConsoleApplication
         {
 
             List<User> listUsers = CallGetAllUsers();
-
             //On se connecte
-            //Connexion();
+            Int32 userId = Connexion();
 
             Console.WriteLine("Voici la liste des utilistateurs :\n");
 
@@ -28,23 +27,158 @@ namespace ConsoleApplication
                 Console.WriteLine(item.Id + "\t->\t" + item.Login);
             }
 
-
             Console.WriteLine("Entrez l'id d'un utilisateur :\n");
             String idSelected = Console.ReadLine();
 
-            List<Data> datas = GetDataById(Int32.Parse(idSelected));
+            List<Data> datas = GetDataByIdUser(Int32.Parse(idSelected));
 
             foreach (Data item in datas)
             {
                 Console.WriteLine(item.DataJson);
             }
 
-            itemChoice(datas);
 
+            userMenu(datas, true, userId);
             Console.ReadLine();
 
 
 
+
+        }
+
+        private static void userMenu(List<Data> datas, Boolean exit, Int32 userId)
+        {
+            Console.Clear();
+
+            while (exit)
+            {
+                Console.WriteLine("################################################");
+                Console.WriteLine("Que souhaitez-vous faire ? :");
+                Console.WriteLine("1 -> afficher et trier par type (music ou film):");
+                Console.WriteLine("2 -> ajouter une valeur dans un Json :");
+                Console.WriteLine("3 -> supprimer  une valeur dans un Json :");
+                Console.WriteLine("4 -> modifier une valeur dans un Json :");
+                Console.WriteLine("exit -> sortir du programme :");
+                Console.WriteLine("################################################");
+
+                String userMenuInput = Console.ReadLine();
+
+                switch (userMenuInput)
+                {
+                    case "1":
+                        itemChoice(datas);
+                        break;
+                    case "2":
+                        addJson(datas, userId);
+                        break;
+                    case "3":
+                        deleteJson(datas, userId);
+                        break;
+                    case "4":
+                        break;
+                    case "exit":
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Apprend à écrire batard ! c'est pas comme si tu avais beaucoup le choix");
+                        break;
+                }
+                Console.ReadLine();
+                userMenu(datas, true, userId);
+            }
+        }
+
+        private static async void deleteJson(List<Data> datas, int userId)
+        {
+            String dataJsonOutput = "";
+            Data dataJsonElement = new Data();
+
+
+            foreach (Data item in datas)
+            {
+                Console.WriteLine(item.Id + " -> " + item.DataJson);
+            }
+
+            Console.WriteLine("Selectionnez un Json à supprimer");
+            String userInput = Console.ReadLine();
+
+            Int32 intuserInput = Int32.Parse(userInput);
+            /*
+            Console.WriteLine("Entrez une clé");
+            String keyInput = Console.ReadLine();
+
+            List<Data> datasById = GetByDataId(intuserInput, userId);
+            foreach (Data item in datasById)
+            {
+
+                dataJsonElement = item;
+
+                dataJsonOutput = item.DataJson.Substring(0, item.DataJson.Length - 1);
+
+
+            }
+
+            dataJsonOutput += ", '" + keyInput + "': '" + valueInput + "' } ";
+            dataJsonElement.DataJson = dataJsonOutput;
+            //attention les datas arrivent avec amour <3
+            MySQLManager<Data> managerData = new MySQLManager<Data>(DataConnectionResource.LOCALMYSQL);
+            await managerData.Update(dataJsonElement);
+
+            Console.WriteLine("Votre clé " + keyInput + " et votre valeur " + valueInput + " ont bien été ajoutées : \n" + dataJsonElement.DataJson);*/
+            Console.WriteLine("Appuyez pour continuer");
+        }
+
+        //Get data by users
+        private static List<Data> GetByDataId(Int32 dataId, Int32 userId)
+        {
+            DataManager dataManager = new DataManager();
+
+            List<Data> dataById = dataManager.GetByDataId(dataId, userId);
+            return dataById;
+        }
+
+        private static async void addJson(List<Data> datas, Int32 userId)
+        {
+            String dataJsonOutput = "";
+            Data dataJsonElement = new Data();
+
+
+            foreach (Data item in datas)
+            {
+                Console.WriteLine(item.Id + " -> " + item.DataJson);
+            }
+
+            Console.WriteLine("Selectionnez un Json");
+            String userInput = Console.ReadLine();
+
+            Int32 intuserInput = Int32.Parse(userInput);
+
+
+
+            Console.WriteLine("Entrez une clé");
+            String keyInput = Console.ReadLine();
+            Console.WriteLine("Entrez une valeur");
+            String valueInput = Console.ReadLine();
+
+            List<Data> datasById = GetByDataId(intuserInput, userId);
+            foreach (Data item in datasById)
+            {
+                
+                dataJsonElement = item;
+
+                dataJsonOutput = item.DataJson.Substring(0, item.DataJson.Length - 1);
+               
+
+            }
+
+            dataJsonOutput += ", '" + keyInput + "': '" + valueInput + "' } ";
+            dataJsonElement.DataJson = dataJsonOutput;
+            //attention les datas arrivent avec amour <3
+            MySQLManager<Data> managerData = new MySQLManager<Data>(DataConnectionResource.LOCALMYSQL);
+            await managerData.Update(dataJsonElement);
+
+            Console.WriteLine("Votre clé " + keyInput + " et votre valeur " + valueInput + " ont bien été ajoutées : \n" + dataJsonElement.DataJson);
+            Console.WriteLine("Appuyez pour continuer");
         }
 
         // GET: User
@@ -65,7 +199,7 @@ namespace ConsoleApplication
         }
 
         //Get data
-        private static List<Data> GetDataById(Int32 userId)
+        private static List<Data> GetDataByIdUser(Int32 userId)
         {
             DataManager dataManager = new DataManager();
 
@@ -74,7 +208,7 @@ namespace ConsoleApplication
             return dataManager.GetById(userId);
         }
 
-        private static void Connexion()
+        private static Int32 Connexion()
         {
             Console.WriteLine("Your login");
             String login = Console.ReadLine();
@@ -88,11 +222,14 @@ namespace ConsoleApplication
             if (user.Id != 0)
             {
                 Console.WriteLine("Vous êtes connecté en tant que " + user.Login);
+                return user.Id;
             }
             else
             {
                 Console.WriteLine("t'as pas de compte batard ou tu t'es trompé enculé");
                 Connexion();
+                return 0;
+                
             }
         }
         private static void itemChoice(List<Data> datas)

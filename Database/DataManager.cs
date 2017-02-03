@@ -33,6 +33,28 @@ namespace Database
             return datas;
         }
 
+        public List<Data> GetByDataId(Int32 dataId, Int32 userId)
+        {
+            List<Data> datas;
+            try
+            {
+
+                datas = DbSetT
+
+                .Where(x => x.IdUser == userId)
+                .Where(x => x.Id == dataId).ToList();
+
+            }
+            catch (Exception)
+            {
+                datas = new List<Data>();
+            }
+
+            return datas;
+        }
+
+
+
 
 
     }
